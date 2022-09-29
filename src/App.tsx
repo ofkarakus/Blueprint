@@ -1,11 +1,11 @@
 import "./App.css";
-import Sidebar from "./components/molecules/Sidebar";
+import Toolbar from "./components/molecules/Toolbar";
 import Body from "./components/organisms/Body";
 
 function App() {
   return (
     <div className="App">
-      <Sidebar />
+      <Toolbar />
       <Body />
     </div>
   );
