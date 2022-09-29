@@ -1,11 +1,12 @@
 import "./App.css";
+import Sidebar from "./components/molecules/Sidebar";
+import Body from "./components/organisms/Body";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <p>Blueprint</p>
-      </header>
+      <Sidebar />
+      <Body />
     </div>
   );
 }
