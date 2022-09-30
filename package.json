@@ -24,7 +24,8 @@
     "start": "PORT=3006 CHOKIDAR_USEPOLLING=true react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "svgr": "npx @svgr/cli --out-dir ./src/components/icons --ignore-existing --jsx-runtime automatic --typescript -- ./public/svg"
   },
   "eslintConfig": {
     "extends": [
