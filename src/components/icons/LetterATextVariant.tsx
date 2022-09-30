@@ -3,8 +3,8 @@ import { SVGProps } from "react";
 const SvgLetterATextVariant = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width="20px"
-    height="20px"
+    width="18px"
+    height="18px"
     viewBox="0 0 32.181 32.18"
     xmlSpace="preserve"
     {...props}

@@ -5,8 +5,8 @@ const SvgPrint = (props: SVGProps<SVGSVGElement>) => (
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 60 60"
     xmlSpace="preserve"
-    width="20px"
-    height="20px"
+    width="18px"
+    height="18px"
     {...props}
   >
     <path d="M42 43H18a1 1 0 1 0 0 2h24a1 1 0 1 0 0-2zM42 48H18a1 1 0 1 0 0 2h24a1 1 0 1 0 0-2z" />

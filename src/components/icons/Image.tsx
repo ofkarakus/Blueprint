@@ -2,8 +2,8 @@ import { SVGProps } from "react";
 
 const SvgImage = (props: SVGProps<SVGSVGElement>) => (
   <svg
-    width="20px"
-    height="20px"
+    width="18px"
+    height="18px"
     viewBox="0 0 24 24"
     xmlns="http://www.w3.org/2000/svg"
     {...props}

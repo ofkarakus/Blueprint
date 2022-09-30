@@ -1,6 +1,6 @@
 export { default as Copy } from "./Copy";
 export { default as ExternalLinkSquareAlt } from "./ExternalLinkSquareAlt";
-export { default as GridSmall } from "./GridSmall";
+export { default as Grid } from "./Grid";
 export { default as Image } from "./Image";
 export { default as LetterATextVariant } from "./LetterATextVariant";
 export { default as Paste } from "./Paste";
