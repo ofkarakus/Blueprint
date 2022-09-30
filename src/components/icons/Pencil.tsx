@@ -3,8 +3,9 @@ import { SVGProps } from "react";
 const SvgPencil = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width={920.729}
-    height={920.729}
+    width="20px"
+    height="20px"
+    viewBox="0 0 920.729 920.729"
     xmlSpace="preserve"
     {...props}
   >

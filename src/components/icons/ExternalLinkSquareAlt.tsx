@@ -2,8 +2,8 @@ import { SVGProps } from "react";
 
 const SvgExternalLinkSquareAlt = (props: SVGProps<SVGSVGElement>) => (
   <svg
-    width={512}
-    height={512}
+    width="20px"
+    height="20px"
     viewBox="-32 0 512 512"
     xmlns="http://www.w3.org/2000/svg"
     {...props}

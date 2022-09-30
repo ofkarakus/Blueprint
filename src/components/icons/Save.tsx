@@ -5,6 +5,8 @@ const SvgSave = (props: SVGProps<SVGSVGElement>) => (
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 49 49"
     xmlSpace="preserve"
+    width="20px"
+    height="20px"
     {...props}
   >
     <path d="M27.5 5h6v10h-6z" />
