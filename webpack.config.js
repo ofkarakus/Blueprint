@@ -1,14 +1,14 @@
 module.exports = {
-  entry: "./src/index.js",
+  entry: "./src/index.tsx",
   module: {
     loaders: [
       {
         test: require.resolve("blueimp-file-upload"),
-        loader: "imports?define=>false",
+        loader: "imports-loader?define=>false",
       },
       {
         test: require.resolve("medium-editor-insert-plugin"),
-        loader: "imports?define=>false",
+        loader: "imports-loader?define=>false",
       },
     ],
   },
